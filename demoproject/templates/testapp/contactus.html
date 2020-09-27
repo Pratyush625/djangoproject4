@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{%  extends 'testapp/index.html'%}
+{%block body_block%}
+<div class="contactus">
+  <h1 class="contactus_header">Contact US</h1>
+  <form>
+     <table class="contactus_form">
+       <tr>
+         <td>
+           <input class="contactus_form_evenrow" type="text" size='50' placeholder='Name'/>
+         </td>
+       </tr>
+       <tr>
+         <td>
+           <input class="contactus_form_oddrow" type="text"  placeholder='Email'/>
+         </td>
+       </tr>
+       <tr>
+         <td>
+           <input class="contactus_form_evenrow" type="text"  placeholder='Contact No'/>
+         </td>
+       </tr>
+       <tr>
+         <td>
+           <textarea class="contactus_textarea" placeholder="Message"></textarea>
+         </td>
+         <tr>
+              <td>
+                  <input class="contactus_button" type="submit" value="Submit"/>
+             </td>
+            </tr>
+     </table>
+  </form>
+</div>
+{%endblock%}

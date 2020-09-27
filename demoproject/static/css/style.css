@@ -1,0 +1,165 @@
+body{
+  background: url(https://images.unsplash.com/photo-1580121441575-41bcb5c6b47c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* HomePage Styles */
+.header{
+    align-items: center;
+    background-color: grey;
+    margin-bottom: 20px;
+    height:60px;
+    color: white;
+
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+  background-color: white;
+}
+li{
+  float: left;
+  display: block;
+  margin-left: 20px;
+  font-size: 20px;
+
+}
+
+/* courses_table */
+.courses_table{
+
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px;
+    width: 70%;
+}
+.courses_header{
+    text-align: center;
+    color: rgb(255, 0, 0);
+
+    padding-bottom: 10px;
+    margin-top: 70px;
+}
+.table_header{
+    background-color: rgb(0, 255, 13);
+    height: 40px;
+    text-align: left;
+
+}
+.evenrow{
+    background-color:white ;
+    height: 30px;
+}
+.evenrow:hover{
+    background-color: rgb(192, 238, 148);
+}
+.oddrow{
+    background-color: aliceblue;
+    height:30px;
+}
+.oddrow:hover{
+    background-color:rgb(135, 194, 233) ;
+}
+
+/*New Batches Styles */
+
+.newbatches_header{
+    text-align: center;
+    color: #206a5d;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 80px;
+}
+
+.newbatches_table{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.newbatches_table_header{
+    background-color: yellow;
+    height: 40px;
+    text-align: left;
+    color: black;
+}
+/* ABout US styles*/
+
+.aboutus{
+    text-align: center;
+    padding-top: 30px;
+}
+.aboutus_header{
+    text-align: center;
+    color: #7d0633;
+    padding-top: 30px;
+    /*padding-bottom: 20px;*/
+}
+
+p{
+    text-align: justify;
+    text-indent: 60px;
+    line-height: 30px;
+    font-size: large;
+    padding: 0% 3%;
+    color: yellow;
+}
+/*Contact US Styles */
+.contactus{
+    text-align: center;
+    padding-top: 30px;
+}
+.contactus_header{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.contactus_form{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.contactus_button{
+    background-color: rgba(22, 193, 236, 0.979);
+    width: 360px;
+    height:30px;
+    border-radius: 5px;
+    color: black;
+}
+.contactus_button:hover{
+    background-color: rgb(247, 4, 17);
+    color: white;
+}
+.contactus_textarea{
+    width: 350px;
+    height: 50px;
+    align-content: left;
+    background-color: azure;
+
+}
+.contactus_form_evenrow{
+    background-color: rgb(248, 239, 226);
+    border: 0px;
+    width: 350px;
+    height: 20px;
+}
+.contactus_form_evenrow:hover{
+    background-color: rgb(192, 238, 148);
+}
+.contactus_form_oddrow{
+    background-color: azure;
+    border: 0px;
+    width: 350px;
+    height: 20px;
+}
+.contactus_form_oddrow:hover{
+    background-color:rgb(135, 194, 233) ;
+}
